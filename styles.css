@@ -14,6 +14,10 @@
     margin: 0;
 }
   
+a{
+    text-decoration: none;
+}
+
 body{
     margin-top: 50px;
     background-color: var(--primary-color);
@@ -224,9 +228,9 @@ body{
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    bottom: 20px;
     right: 100px;
     margin: auto;
+    bottom: 10%;
 }
   
 .rule-btn {
@@ -237,7 +241,7 @@ body{
     border-radius: 9px;
     font-size: 1rem;
     font-weight: var(--large);
-    margin: 20px;
+    margin-right: 20px;
 }
   
 #next-btn {

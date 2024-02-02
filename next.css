@@ -1,0 +1,126 @@
+:root {
+    --white: #fff;
+    --ash: #a1a1a1;
+    --black: #000000;
+    --line: #344007;
+    --large: 700;
+    --primary-color: #76c500;
+}
+
+body{
+    margin-top: 50px;
+    background-color: var(--primary-color);
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.rules-container {
+    right: 30px;
+    bottom: 70px;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 17.5rem;
+    height: 18rem;
+    background-color: var(--line);
+    color: var(--white);
+    border: 8px solid var(--white);
+    border-radius: 13px;
+    z-index: 20;
+}
+  
+.rule-title {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 2rem;
+    font-weight: var(--large);
+}
+  
+.rules {
+    font-size: 0.9rem;
+    margin-top: -20px;
+}
+  
+.close_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 6px solid var(--white);
+    background-color: red;
+    padding: 0.9rem;
+    border-radius: 50%;
+    font-size: 2rem;
+    position: absolute;
+    right: -2rem;
+    top: -2.25rem;
+    cursor: pointer;
+}
+  
+.btn {
+    right: 5%;
+    position: absolute;
+    bottom: 2%;
+}
+  
+.rule-btn {
+    padding: 0.5rem 1rem;
+    background-color: transparent;
+    color: var(--white);
+    border: 2px solid var(--white);
+    border-radius: 9px;
+    font-size: 1rem;
+    font-weight: var(--large);
+    margin-right: 20px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.star{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+star img:last-child{
+    margin: auto;
+    width: 19rem;
+    height: 15rem;
+}
+
+.message{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 7rem;
+    color: var(--white)
+}
+
+p{
+    font-size: 2rem;
+    color: var(--white);
+    text-align: center;
+    margin-top: -2.5rem;
+}
+
+.play-again-btn{
+    padding: 1rem 1.5rem;
+    border: none;
+    border-radius: 1rem;
+}
+
+a{
+    text-decoration: none;
+}
