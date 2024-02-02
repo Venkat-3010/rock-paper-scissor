@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Rock Paper Scissors</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+  <div class="title-container">
+    <div class="title">
+      <div class="rps">
+        <p>ROCK</p>
+        <p>PAPER</p>
+        <p>SCISSORS</p>
+      </div>
+      <div class="score-box">
+        <div class="scores">
+          <p class="super-1">YOUR SCORE</p>
+          <p class="super-2" id="score_user">0</p>
+        </div>
+        <div class="scores">
+          <p class="super-1">COMPUTER SCORE</p>
+          <p class="super-2" id="score_computer">0</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="options-container">
+    <div class="options">
+        <div class="choice rock" id="rock">
+            <i class="fas fa-hand-rock"></i>
+        </div>
+        <div class="stand stand-1"></div>
+        <div class="choice scissor" id="scissors">
+            <i class="fas fa-hand-scissors"></i>
+        </div>
+    </div>
+    <div class="stands">
+        <div class="stand stand-2"></div>
+        <div class="stand stand-3"></div>
+    </div>
+    <div class="options">
+        <div class="choice paper" id="paper">
+            <i class="fas fa-hand-paper"></i>
+        </div>
+    </div>
+</div>
+  <div class="result-container">
+    <div class="user-option">
+        <p>YOU PICKED</p>
+        <div class="choice" id="user-choice"></div>
+    </div>
+    <div class="play-again">
+        <p>
+            <span id="winner"></span>
+            <br /> AGAINST PC
+        </p>
+        <button class="play-again-btn" id="play">PLAY AGAIN</button>
+    </div>
+    <div class="computer-option">
+        <p>COMPUTER PICKED</p>
+        <div class="choice" id="computer-choice"></div>
+    </div>
+</div>
+  <div class="rules-container">
+    <div class="rule-title">
+      <p>Game Rules</p>
+    </div>
+    <div class="close_btn">
+      <b>x</b>
+    </div>
+    <div class="rules">
+      <ul>
+        <li>Rock beats scissors, scissors beat paper, and paper beats rock.</li>
+        <li>Agree ahead of time whether you’ll count off “rock, paper, scissors, shoot” or just “rock, paper, scissors.”</li>
+        <li>Use rock, paper, scissors to settle minor decisions or simply play to pass the time</li>
+        <li>If both players lay down the same hand, each player lays down another hand</li>
+      </ul>
+    </div>
+  </div>
+  <div class="btn">
+    <button class="rule-btn">RULES</button>
+    <button class="rule-btn" id="next-btn">NEXT</button>
+  </div>
+  <script src="script.js" defer></script>
+</body>
+</html>
